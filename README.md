@@ -3,6 +3,7 @@
 Find a particular parent node of the current element by passing the element and a tag name/css
 selector identifier.
 
+### example
 ```
 var parentNodeSelector = require('parent-node-selector')
 
