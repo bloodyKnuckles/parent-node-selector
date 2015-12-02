@@ -1,5 +1,5 @@
-module.exports = function (evttarget, tagsearch) {
-    var selectors = tagsearch.split(/(?=[#\.])/),
+module.exports = function (evttarget, parentselector) {
+    var selectors = parentselector.split(/(?=[#\.])/),
         tagname = selectors.shift()
 
     return parentNodeUp(evttarget)
