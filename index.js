@@ -1,8 +1,8 @@
-module.exports = function (evttarget, parentselector) {
+module.exports = function (element, parentselector) {
     var selectors = parentselector.split(/(?=[#\.])/),
         tagname = selectors.shift()
 
-    return parentNodeUp(evttarget)
+    return parentNodeUp(element)
 
     function parentNodeUp (et) {
         return (tagname.toLowerCase() === et.tagName.toLowerCase()) && selectorMatchAll(selectors)
