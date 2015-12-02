@@ -45,6 +45,13 @@ Returns:
 </div>
 ```
 
+### more examples
+
+You can also:
+```
+var parentwithclass = parentNodeSelector(childelement, 'div.parentclass')
+var parentelement = parentNodeSelector(childelement, 'div') // get first parent DIV
+```
 
 ### install
 ```
