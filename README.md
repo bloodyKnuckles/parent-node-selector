@@ -50,7 +50,7 @@ Returns:
 You can also:
 ```
 var parentwithclass = parentNodeSelector(childelement, 'div.parentclass')
-var parentelement = parentNodeSelector(childelement, 'div') // get first parent DIV
+var parentelement   = parentNodeSelector(childelement, 'div') // get closest parent DIV
 ```
 
 ### install
