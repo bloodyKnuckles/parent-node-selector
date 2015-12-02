@@ -1,0 +1,32 @@
+{
+  "name": "parent-node-selector",
+  "version": "0.1.0",
+  "description": "Given an element and a selector, find the first parent element that matches.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloodyKnuckles/parent-node-selector.git"
+  },
+  "keywords": [
+    "Javascript",
+    "parentNode",
+    "selector",
+    "find"
+  ],
+  "author": "Jay Scott ANDERSON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyKnuckles/parent-node-selector/issues"
+  },
+  "homepage": "https://github.com/bloodyKnuckles/parent-node-selector#readme",
+  "devDependencies": {
+    "tape": "^4.2.2",
+    "virtual-dom": "^2.1.1"
+  }
+}
