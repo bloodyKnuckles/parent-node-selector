@@ -1,4 +1,8 @@
 module.exports = function (element, parentselector) {
+    if ( !parentselector && 'string' === typeof element ) {
+        parentselector = element
+        element = this
+    }
     var selectors = parentselector.split(/(?=[#\.])/),
         tagname = selectors.shift()
 
