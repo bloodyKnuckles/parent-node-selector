@@ -1,6 +1,6 @@
 {
   "name": "parent-node-selector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Given an element and a selector, find the first parent element that matches.",
   "main": "index.js",
   "directories": {
