@@ -52,6 +52,15 @@ You can also:
 var parentwithclass = parentNodeSelector(childelement, 'div.parentclass')
 var parentelement   = parentNodeSelector(childelement, 'div') // get closest parent DIV
 ```
+### prototype example
+
+If running your `parent-node-selector` javascript in a browser you can add this method to the `Node` prototype
+object:
+```
+Node.prototype.parentNodeSelector = require('parent-node-selector')
+var childelement = document.getElementbyId('childid')
+var parentelement = childelement.parentNodeSelector('div#parentid')
+```
 
 ### install
 ```
